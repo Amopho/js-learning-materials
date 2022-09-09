@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Data</title>
+    <style>
+      table {
+        border: 1px solid black;
+        text-align: center;
+      }
+      table tr:nth-child(2n) {
+        background-color: lightblue;
+      }
+      input[type="submit"] {
+        border: none;
+        border-radius: 10%;
+        background-color: lightskyblue;
+        width: 6rem;
+        height: 3rem;
+      }
+      img {
+        width: 3rem;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <%# soon btn 10 more pp %>
+    <!-- i will handle my new psot request -->
+    <form action="/" method="POST">
+      <input type="submit" value="Add more data" />
+    </form>
+    <%if(data.length){%>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Avatar</th>
+        <th>LName</th>
+        <th>City</th>
+      </thead>
+      <tbody>
+        <%for(let i=0; i< data.length; i++) {%>
+        <tr>
+          <td><%=i%></td>
+          <!-- we will write notmal string and render  -->
+          <td><img src="<%=data[i].avatar%>" alt="Avatar" /></td>
+          <!-- 'image': `${faker.image.nature()}?random=${Date.now()}`). -->
+          <td><%=data[i].firstName%></td>
+          <td><%=data[i].lastName%></td>
+        </tr>
+        <%}%>
+      </tbody>
+    </table>
+    <%}%>
+  </body>
+</html>

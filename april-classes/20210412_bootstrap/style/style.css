@@ -1,0 +1,32 @@
+/* 1 row table */
+
+.simple-table {
+  margin: 2rem;
+  background-color: rgb(128, 124, 124);
+  border-right: 2px solid gray;
+}
+
+.gray-border {
+  background-color: lightgray;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  border-left: 2px solid gray;
+}
+
+/* table with even widths of cells */
+.salmon {
+  background-color: salmon;
+  border: sandybrown solid 2px;
+}
+
+.first-row {
+  margin-top: 2rem;
+}
+
+.second-row {
+  margin-bottom: 2rem;
+}
+
+.even-cells {
+  border-right: sandybrown solid 2px;
+}

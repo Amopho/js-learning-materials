@@ -1,0 +1,96 @@
+{
+  "userData": {
+    "_id": "######",
+    "username": "Camilla",
+    "email": "emailCamilla@plantastic.com",
+    "password": "###hashed####",
+    "passwordInText": "plantastic"
+  },
+  "userTasks": [
+    {
+      "id": "#1",
+      "task": "Eisbergsalat ernten",
+      "completed": false,
+      "dueDate": "today",
+      "dateCreated": "date it was created",
+      "dateCompleted": "date of completion",
+      "association": "plant name or where it comes from",
+      "associationId": "###ID of association = plant ID or user ID or general tasks ID, etc.###",
+      "userCreated": false,
+      "plantasticCreated": true
+    },
+    {
+      "id": "#2",
+      "task": "Tomatensprößlinge umpflanzen",
+      "completed": false,
+      "dueDate": "today",
+      "dateCreated": "date it was created",
+      "dateCompleted": "date of completion",
+      "association": "plant name or where it comes from",
+      "associationId": "###ID of association = plant ID or user ID or general tasks ID, etc.###",
+      "userCreated": false,
+      "plantasticCreated": true
+    },
+    {
+      "id": "#3",
+      "task": "Sonnenblumen an Stangen binden",
+      "completed": false,
+      "dueDate": "today",
+      "dateCreated": "date it was created",
+      "dateCompleted": "date of completion",
+      "association": "plant name or where it comes from",
+      "associationId": "###ID of association = plant ID or user ID or general tasks ID, etc.###",
+      "userCreated": false,
+      "plantasticCreated": true
+    },
+    {
+      "id": "#4",
+      "task": "Wurmfarm füttern",
+      "completed": false,
+      "dueDate": "today",
+      "dateCreated": "date it was created",
+      "dateCompleted": "date of completion",
+      "association": "plant name or where it comes from",
+      "associationId": "###ID of association = plant ID or user ID or general tasks ID, etc.###",
+      "userCreated": false,
+      "plantasticCreated": true
+    }
+  ],
+  "users_garden": {
+    "users_gardens": ["backyard", "community garden"],
+    "users_plants": [
+      {
+        "_id": "###plant ID###",
+        "fromPlantLexicon": true,
+        "numberOfPlantsTotal": 10,
+        "adultPlants": [{}],
+        "teenagePLants": [{}],
+        "babyPLants": [{}],
+        "plantsSeededTotal": 4,
+        "seeded": [{}],
+        "plantHealth": 5,
+        "diseased": true,
+        "disease": ["Mehltau", "Blattläuse"],
+        "number_of_diseased_plants": 1,
+        "dates_of_realization": "date",
+        "dates_added": "date with time",
+        "dates_seeded": "date and time"
+      }
+    ],
+    "users_plant_areas": [
+      {
+        "plant_area_name": "garden bed name or part of garden bed",
+        "plant_area_image": "gardenbed.png",
+        "location_description": "user defines for himself",
+        "plant_area_plants": [
+          {
+            "name": "can be any identifiyng name (variety name, botanical name, "
+          }
+        ],
+        "size": 3,
+        "size_unit": "sqm",
+        "shape_description": "user defined"
+      }
+    ]
+  }
+}

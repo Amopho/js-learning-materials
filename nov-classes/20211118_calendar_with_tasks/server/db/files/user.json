@@ -1,0 +1,169 @@
+{
+  "_id": "###########",
+  "user_account": {
+    "username": "camilla96 (needs to be unique)",
+    "password": "***********hashed password",
+    "user_image": "cammy1.png",
+    "user_contact_information": {
+      "firstname": "Camilla",
+      "lastname": "Tilia",
+      "email_address": ["prioritized email", "email2", "email3"],
+      "users_landline": "0123456789",
+      "users_mobile_number": "0123456789",
+      "home_address": {
+        "home_address_road": "Street",
+        "home_address_housenumber": 9,
+        "home_address_extra": "apartment number or floor",
+        "home_address_postal_code": "12345",
+        "home_address_city": "city name",
+        "home_address_country": "country name",
+        "home_address_is_also_mailing_address": true
+      },
+      "mailing_addresses": [
+        {
+          "current_mailing_address": true,
+          "recipient": "full name",
+          "delete_this_later": "user can use checkmark, if mail address and home address are the same, if no, then open mail address section"
+        }
+      ]
+    },
+    "other_user_information": {
+      "user_is_part_of_community": true,
+      "users_communities": [
+        {
+          "community_name": "community1",
+          "community_id": "shared id among common communities",
+          "community_company_registration_number": "",
+          "community_company_CEO": "Boss Name",
+          "community_company_contact_information": {
+            "community_address_road": "Street",
+            "community_address_housenumber": 9,
+            "community_address_extra": "apartment number or floor",
+            "community_address_postal_code": "12345",
+            "community_address_city": "city name",
+            "community_address_country": "country name",
+            "community_phone": "phone number",
+            "community_contact_person": [
+              {
+                "contact_person_name": "first last name",
+                "contact_person_email_address": "abcdefg@garden-community.com",
+                "contact_person_phone": "0123456-906"
+              }
+            ],
+            "community_associates": [
+              {
+                "company_name": "garden maintenance",
+                "relation_to_community": "maintains garden community for the company",
+                "contact_person": {
+                  "contact_person_name": "first last name",
+                  "contact_person_function": "position",
+                  "contact_person_email_address": "abcdefg@garden-community.com",
+                  "contact_person_phone": "0123456-906"
+                },
+                "tickets_raised": {
+                  "contact_date": "date and time",
+                  "concern_category": ["broken stuff", "cleaning", "insurance"],
+                  "concern": "storm caused tree fall which needed clearing. No damages found.",
+                  "issue_raised_by": "user information, user ID, date when problem issued, topic, message content",
+                  "status": "resolved/pending",
+                  "response": [
+                    {
+                      "reply": "message",
+                      "source": "email address",
+                      "received_date": "date",
+                      "contact_person": "name and or ID of contact person"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "users_community_garden_address": {
+            "community_garden_address_road": "Street",
+            "community_garden_address_housenumber": 9,
+            "community_garden_address_extra": "how to recognize the garden, e.g. nummber of garden",
+            "community_garden_address_postal_code": "12345",
+            "community_garden_address_city": "city name",
+            "community_garden_address_country": "country name"
+          }
+        }
+      ]
+    }
+  },
+  "users_garden": {
+    "users_gardens": ["backyard", "community garden"],
+    "users_plants": [
+      {
+        "copied_from_plant_lexicon": "...",
+        "number_of_plants": 10,
+        "plants_seeded": 4,
+        "seeded": [{}],
+        "plant_health": 5,
+        "disease": ["Mehltau", "Blattläuse"],
+        "number_of_diseased_plants": 1,
+        "dates_of_realization": "date",
+        "dates_added": "date with time",
+        "dates_seeded": "date and time"
+      }
+    ],
+    "users_plant_areas": [
+      {
+        "plant_area_name": "garden bed name or part of garden bed",
+        "plant_area_image": "gardenbed.png",
+        "location_description": "user defines for himself",
+        "plant_area_plants": [
+          {
+            "name": "can be any identifiyng name (variety name, botanical name, "
+          }
+        ],
+        "size": 3,
+        "size_unit": "sqm",
+        "shape_description": "user defined"
+      },
+      {}
+    ]
+  },
+  "tasks": {
+    "task_items": [
+      {
+        "_id": "###########",
+        "task_item": "do this",
+        "date_time_added": "date with time of last edit ? (default order is custom or by time added, newest first)",
+        "users_added_tags": [
+          "backyard",
+          "gardenbed location",
+          "which garden",
+          "community"
+        ],
+        "task_status_done": false,
+        "reminder_set": true,
+        "reminder_dates": ["date1 with time", "date2 with time"],
+        "reminder_repetition": [
+          "daily",
+          "weekly",
+          "monthly",
+          "custom (in reminder_dates)"
+        ],
+        "plant_id_reference": "plant ID or userPlant ID?",
+        "plant_variety_reference": "Roma",
+        "other_plant_references": [
+          "other plants from same family?",
+          "Gemüse",
+          "anything not from lexicon?"
+        ]
+      }
+    ]
+  },
+  "user_shopping_data": {
+    "user_shopping_history": [
+      {
+        "product_item_id": "########",
+        "product_item_title": "",
+        "product_item_additional_information": "",
+        "purchase_date": "date of click 'buy'",
+        "payment_received": true,
+        "payment_receive_date": "date"
+      }
+    ]
+  }
+}

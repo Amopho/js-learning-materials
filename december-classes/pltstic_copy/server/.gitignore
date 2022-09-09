@@ -1,0 +1,8 @@
+node_modules/
+.env
+temporary.js
+plantModel.js
+index.html
+public
+async.js
+test

@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{title}}</title>
+    {{!-- i will use what I have from my title in the app {{}}- firwst handlebar- hey this is hbs, second read this value --}}
+  </head>
+  <style>body{background-color: orange;}</style>
+  <body>
+    <h1>{{title}}</h1>
+    {{#if done}}
+    <div>
+    <h4>Everything fine</h4>
+    </div>
+        {{else}}
+    {{#if errors}}
+    <div>
+        {{!-- i want you to go through the each an element of this array --}}
+        <ul>
+            {{#each errors}}
+            {{!-- errors.map(err => err) err is an individual error at a time --}}
+            <li>{{this.msg}}</li>
+        </ul>
+    </div>
+    {{!-- {{{}}}to amke this value to an actual html content, third {} to render into something undertsandandable, into html --}}
+    {{! I will start from where I left in  }}
+    <form method="POST" action="/submit">
+            {{!-- the data will land in the submit route --}}
+            <label>
+                <input type="email" id="email" name="email" placeholder="Your email">            
+            </label>
+            <label>
+                <input type="email" id="email" name="email" placeholder="Your email">            
+            </label>
+            <label>
+                <input type="email" id="email" name="email" placeholder="Your email">            
+            </label>
+                            {{!-- first layer of validation, if i choose type email than the frontend will chech on that if its a email --}}
+                {{!-- name - i have to fill it out with something the backend will read, it will be the par --}}
+
+    </form>
+
+  </body>
+</html>
+

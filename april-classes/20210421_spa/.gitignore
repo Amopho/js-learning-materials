@@ -1,0 +1,8 @@
+# Dependency dir
+node_modules/
+# generate output
+dist/
+# generate styles
+src/styles
+# vs code config
+.vscode/

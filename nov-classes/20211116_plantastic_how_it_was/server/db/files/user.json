@@ -1,0 +1,52 @@
+{
+  "_id": "###########",
+  "username": "camilla96",
+  "password": "***********",
+  "user_image": "cammy1.png",
+  "contact_information": {
+    "firstname": "Camilla",
+    "lastname": "Tilia",
+    "email_address": ["prioritized email", "email2", "email3"],
+    "home_address_road": "Street",
+    "home_address_housenumber": 9,
+    "home_address_extra": "apartment number or floor",
+    "home_address_postal_code": "12345",
+    "home_address_city": "city name",
+    "home_address_country": "country name"
+  },
+  "users_garden": {
+    "users_gardens": ["backyard", "community garden"],
+    "users_plants": [
+      {
+        "plant-variety": "Roma"
+      }
+    ]
+  },
+  "tasks": {
+    "task_items": [
+      {
+        "_id": "###########",
+        "task_item": "do this",
+        "date_time_added": "date with time of last edit ? (default order is custom or by time added, newest first)",
+        "users_added_tags": [
+          "backyard",
+          "gardenbed location",
+          "which garden",
+          "community"
+        ],
+        "task_status_done": false,
+        "reminder_set": true,
+        "reminder_dates": ["date1 with time", "date2 with time"],
+        "reminder_repetition": [
+          "daily",
+          "weekly",
+          "monthly",
+          "custom (in reminder_dates)"
+        ],
+        "plant_id_reference": "plant ID or userPlant ID?",
+        "plant_variety_reference": "Roma",
+        "other_plant_references": ["tomato", "Gemüse", "anything not "]
+      }
+    ]
+  }
+}

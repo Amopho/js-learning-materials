@@ -1,0 +1,1 @@
+I am a new Text from nodeJs :*

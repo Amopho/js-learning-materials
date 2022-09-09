@@ -1,0 +1,362 @@
+{
+  "labels": {
+    "_id": "#################",
+    "specific_variety_name": "Romatomate Ravello F1",
+    "botanical_name": "lateinischer Name von Ravello F1",
+    "category": [
+      "Gemüse",
+      "Gemuese",
+      "Obst",
+      "Frucht",
+      "Früchte",
+      "Fruechte",
+      "Beere",
+      "Beeren"
+    ],
+    "plant_genus": ["Tomate", "Tomaten"],
+    "plant_type": ["Stabtomate", "buschige Stabtomate"],
+    "plant_family": ["Nachtschattengewächs"],
+    "other_names": [
+      "italienische Stabtomate",
+      "Tomate",
+      "Eiertomate",
+      "Flaschentomate",
+      "Pflaumentomate",
+      "Pomodoritomate",
+      "Eiertomate"
+    ],
+    "subcategory": ["Supermarkttomate", "Nutzpflanze", "gut zum Kochen"],
+    "keywords": [
+      "rot",
+      "lecker",
+      "essbar",
+      "eiförmig",
+      "für Salat",
+      "für Ketchup",
+      "Eiertomaten",
+      "Flaschentomaten",
+      "Pflaumentomaten",
+      "Pomodoritomaten",
+      "Nachtschattengewächse"
+    ],
+    "tags_from_users": ["Gewächshaus", "Tomatenbeet"]
+  },
+  "images": [
+    {
+      "_id": "################",
+      "image_title": "bunch_of_roma_tomatoes_unsplash",
+      "image_link": "roma_tomatoes.jpg",
+      "image_height_pixel": "3456",
+      "image_width_pixel": "5184",
+      "image_file_format": "jpg",
+      "image_description": "viele Romatomaten",
+      "image_owner": "unsplash",
+      "photographer_artist_origin": "someone from unsplash",
+      "image_source": "unsplash.com",
+      "image_source_information": "keine Lizenz nötig für commercial use",
+      "image_license_given": true,
+      "image_license_type": "commercial license",
+      "image_licence_information": "not needed",
+      "image_keywords": ["Romatomaten", "Tomaten", "..."],
+      "image_first_post_date_plantastic": "01.11.2021",
+      "image_notes": [
+        "paragraph 1",
+        "paragraph 2",
+        "paragraph 3",
+        "Alles andere wichtige zum Foto."
+      ]
+    }
+  ],
+  "plant_data": {
+    "planting_conditions": {
+      "location": {
+        "sun": "sonnig und hell",
+        "location_requirements": ["geschützt vor Regen", "geschützt vor Wind"]
+      },
+      "soil": {
+        "soil_characteristics": ["humos", "nährstoffreich"],
+        "soil_types": ["Humus"],
+        "adult_plant_soil_amount": "n/a",
+        "soil_notes": [""],
+        "allow_drainage": true,
+        "requires_mulching": true,
+        "mulch": {
+          "mulch_type": ["Rindermulch", "Sonstiger Mulch"],
+          "mulch_thickness": 10,
+          "mulch_thickness_unit": "cm",
+          "mulch_every": 3,
+          "mulch_every_unit": "Monate",
+          "mulch_notes": ["Mulchen kann man, muss man aber nicht."]
+        }
+      },
+      "water": {
+        "water_amount_needs_average": 5,
+        "water_regularity_needs_average": 5,
+        "water_reminder_min_temperature_celsius": 30,
+        "water_reminder_min_temperature_fahrenheit": 85,
+        "water_reminder_min_days": 2,
+        "watering_notes": ["regelmäßig gießen", "Staunässe vermeiden"]
+      },
+      "fertilizer": {
+        "fertilizer_amount_needs_average": 4,
+        "fertilizer_regularity_needs_average": 4,
+        "fertilizer_notes": ["regelmäßig düngen"],
+        "fertilizer_reminder_min_days": 20,
+        "fertilizer_stop_after_days": 60,
+        "fertilizer_chemical_requirements": ["n/a"],
+        "fertilizer_type": "Flüssigdünger oder organische Düngemittel"
+      },
+      "planting_distance": {
+        "row_distance_min": 25,
+        "row_distance_min_unit": "cm",
+        "plant_distance_min": 30,
+        "plant_distance_min_unit": "cm",
+        "separate_plants": true,
+        "separate_start_month_index": 4,
+        "separate_plants_space": "40x50",
+        "separate_plants_space_unit": "cm",
+        "separate_notes": ["Ab Mai pikieren"]
+      },
+      "seeding_germination": {
+        "seed_depth": 1,
+        "seed_depth_unit": "cm",
+        "seeding_notes": [
+          "Nur wenig mit Erde bedecken",
+          "Für Vorkultur im warmen Zimmer in Gefäße in spezielle Aussaaterde säen."
+        ],
+        "seeding_time": {
+          "preculture_start_month_index": 1,
+          "preculture_end_month_index": 3,
+          "direct_seeding_start_month_index": 2,
+          "direct_seeding_end_month_index": 5
+        },
+        "germination": {
+          "germination_temperature_min_celsius": 15,
+          "germination_temperature_max_celsius": 35,
+          "germination_temperature_min_fahrenheit": 0,
+          "germination_temperature_max_fahrenheit": 0,
+          "sprouting_time_estimate_min": 7,
+          "sprouting_time_estimate_max": 14,
+          "sprouting_time_estimate_unit": "Tage",
+          "seed_requires_light": true,
+          "germination_notes": [
+            "Andrücken und 1 cm mit Erde bedecken",
+            "Lichtkeimer."
+          ]
+        }
+      },
+      "other_needs": {
+        "variety_specific": [""]
+      }
+    },
+    "harvest": {
+      "preculture_harvest_start_month_index": 7,
+      "preculture_harvest_end_month_index": 9,
+      "direct_seed_harvest_start_month_index": 8,
+      "direct_seed_harvest_ende_month_index": 10,
+      "ready_for_harvest": "Abhängig von der Sorte sind die Tomaten rot, wenn sie reif sind./Nach ca. 2 Jahren bilden sich die ersten Früchte."
+    },
+    "care": {
+      "care_keypoints": ["ausgeizen der Triebe", "umtopfen"],
+      "care_information": ["paragraph 1", "paragraph 2", "paragraph 3"]
+    },
+    "variety_specific_characteristics_list": [
+      "especially fruitful",
+      "tomatoes have good flavor",
+      "fleshy tomatoes"
+    ],
+    "variety_specific_characteristics_notes": [
+      "Bei der Ravello F1 handelt es sich um einen F1-Hybriden, welcher besonders widerstandsfähig ist. Sie ist resistent gegen eine Vielzahl an Krankheiten, wie beispielsweise Kraut- und Braunfäule, Fusarium-Welke und Verticillum-Welke. Die sehr frühe Tomatensorte zeichnet sich zudem durch einen kräftigen Wuchs aus und trägt eine Vielzahl ovaler Früchte.",
+      "Sie ist sehr aromatisch",
+      "paragraph 3"
+    ],
+    "origin": "country/area",
+    "hybrid_type": "show if length over 0, F1 amerikanisch",
+    "growth_time_teenager": 4,
+    "growth_time_unit_teenager": "Wochen",
+    "growth_time_adult": 8,
+    "growth_time_unit_adult": "Wochen",
+    "growth": "buschige Stabtomate",
+    "requires_high_nutrition": true,
+    "lifetime": ["einjährig", "zweijährig", "mehrjährig"],
+    "winterhardy": false,
+    "propagation_methods": ["Samen", "Setzlinge"],
+    "propagation_notes": ["vermehrbar durch Samen und Setzlinge"],
+    "plant_height_max": 200,
+    "plant_height_max_unit": "cm",
+    "plant_width_min": 40,
+    "plant_width_min_unit": "cm",
+    "can_be_houseplant": true,
+    "plant_has_fruit": true,
+    "plant_has_seed_pit": true,
+    "plant_has_flower": true,
+    "plant_has_leaves": true,
+    "plant_has_stem": true,
+    "plant_has_bulb_cloves": false,
+    "plant_has_root_tuber": false,
+    "plant_has_medicinal_purpose": false,
+    "plant_has_poisonous_part": true,
+    "grafting": true,
+    "grafting_notes": ["Veredeln ist möglich aber unnötig"],
+    "plant_description": [
+      "Das Aussehen der Roma-Tomaten erinnert an eine Mischung aus großen Fleisch- und kleinen Kirschtomaten. Allerdings sind die Früchte nicht rund, sondern eher länglich geformt. Romatomaten haben einen Durchmesser von etwa drei bis fünf Zentimeter und können eine Länge von bis zu zwölf Zentimetern erreichen. Neben ihrer untypischen Form zeichnen sich Roma-Tomaten zudem durch ihre Färbung aus, denn sie sind außen immer heller als innen.",
+      "paragraph 2",
+      "paragraph 3"
+    ],
+    "plant_information": [
+      "Die Früchte von Romatomaten ei- bis flaschenförmig, weshalb sie auch oft als Eier- oder Flaschentomaten bezeichnet werden. Es gibt eine Vielzahl unterschiedlicher Sorten, welche sich nicht nur in ihrem Aussehen, sondern auch in ihrem Geschmack unterscheiden. Eine Übersicht sowie Tipps für Anbau und Pflege liefert Ihnen dieser Artikel!Die Romatomate stammt ursprünglich aus Italien und ist mit der etwas kleineren San Marzano verwandt. Die italienische Tomate kann sowohl im Gewächshaus als auch im Freiland kultiviert werden. Das Anbauen auf dem Balkon oder Terrasse ist ebenfalls möglich, sofern ausreichend Platz vorhanden ist. Bei fachgerechter Ernte trägt die Pflanze eine Vielzahl, fester Früchte, welche nicht nur durch ihre besondere Form, sondern auch durch ihr pikantes Aroma bestechen.",
+      "paragraph 2",
+      "paragraph 3"
+    ],
+    "plant_description_keywords": ["ertragreich", "widerstandsfähig"],
+    "other_information": "Text...",
+    "repotting": {
+      "plant_needs_repotting_replanting": true,
+      "repot_after_time": 2,
+      "repot_after_time_unit": "year(s)"
+    },
+    "possible_diseases_and_pests": {
+      "pests": ["Schnecken", "Blattläuse", "Kartoffelkäfer"],
+      "diseases": ["Sonnenbleiche"],
+      "mold": ["Mehltau"],
+      "notes": ["Diese Sorte ist relativ resistent."]
+    },
+    "poisonousness": {
+      "degree_of_poisonousness_fruit": 0,
+      "degree_of_poisonousness_flower": 0,
+      "degree_of_poisonousness_leaves_bulb": 0,
+      "degree_of_poisonousness_stem": 0,
+      "degree_of_poisonousness_roots": 0,
+      "inedible_and_poisonous_parts": ["leaves", "stem"],
+      "poisonousness_notes": ["can be eaten after cooking"]
+    },
+    "medicinal_purpose_information": {
+      "common_medical_use": ["coughs", "flu"],
+      "medicinal_plant_part": ["leaves", "flowers", "stem"],
+      "medication_form": ["powdered leaves", "tea"],
+      "notes": ["p1", "p2"]
+    },
+    "root_tuber": {
+      "edible_roots": false,
+      "edible_tubers": false,
+      "root_depth_average": 40,
+      "root_depth_average_unit": "cm",
+      "root_shape": "",
+      "tuber_shape": "",
+      "characteristics": ["root flavor?", "p2"],
+      "notes": ["p1", "p2"]
+    },
+    "bulb_cloves": {
+      "bulb_shape": "",
+      "cloves_shape": "",
+      "propagation_through_cloves": true,
+      "notes": [
+        "The bulb stores energy of the plant and outer shell dries out with time"
+      ]
+    },
+    "stem": {
+      "edible_stem": false,
+      "stem_shape": "",
+      "color": "",
+      "stem_characteristics": "",
+      "notes": ["p1", "p2"]
+    },
+    "foliage_leaves": {
+      "edible_leaves": false,
+      "leaf_size": 10,
+      "leaf_size_unit": "cm",
+      "leaf_color": "",
+      "leaf_shape": "",
+      "notes": ["p1", "p2"]
+    },
+    "flower": {
+      "flowering_start_month_index": 5,
+      "flowering_end_month_index": 9,
+      "beefriendly": false,
+      "petal_color": ["rot", "gelb", "blau", "weiß", "gemischt"],
+      "self_pollinating": true,
+      "notes": ["p1", "p2"]
+    },
+    "fruit": {
+      "edible_fruit": true,
+      "fruit_start_month_index": 6,
+      "fruit_end_month_index": 9,
+      "fruit_color": ["rot", "gelb gemischt", "grün"],
+      "fruit_size": ["mittelgroß"],
+      "fruit_non_poisonous": true,
+      "fruit_edible": true,
+      "fruit_flavor": ["aromatisch"],
+      "notes": [
+        "Grüne Früchte nicht genießbar, erst wenn sie rot sind schmecken sie"
+      ]
+    }
+  },
+  "links": {
+    "articles": [
+      {
+        "article_title": "Titel 1",
+        "article_topic": "tomatoes",
+        "aritcle_link": "Link1"
+      },
+      {
+        "article_title": "Titel 2",
+        "article_topic": "tomatoes",
+        "aritcle_link": "Link1"
+      }
+    ],
+    "related_shop_products": [
+      {
+        "shop_product_title": "Titel 1",
+        "shop_product_note": "tomatoes",
+        "shop_product_link": "Link1"
+      },
+      {
+        "shop_product_title": "Titel 2",
+        "shop_product_note": "tomatoes",
+        "shop_product_link": "Link1"
+      }
+    ],
+    "recipes": [
+      {
+        "recipe_title": "Titel 1",
+        "recipe_topic": "tomatoes",
+        "recipe_link": "Link1"
+      },
+      {
+        "recipe_title": "Titel 2",
+        "recipe_topic": "tomatoes",
+        "recipe_link": "Link1"
+      }
+    ]
+  },
+  "this_entry": {
+    "editors": [
+      { "editor_name": "full name 1", "edit_date": "default is today's date" }
+    ]
+  },
+  "sources_for_our_information": [
+    {
+      "topic": "tomatoes description text",
+      "sources": [
+        {
+          "source_link": "https://www.tomaten.de/romatomaten/",
+          "source_title": "n/a",
+          "source_author": "n/a",
+          "source_specifics": "n/a",
+          "source_notes": [
+            "is about roma tomatoes in general, not much specifically"
+          ]
+        },
+        {
+          "source_link": "https://www.plantura.garden/sortenvielfalt/tomatensorten/romatomate",
+          "source_title": "n/a",
+          "source_author": "Regina",
+          "source_specifics": "Regina: Ich habe Gartenbauwissenschaften am WZW in Freising studiert und pflanze in meiner Freizeit auf einem Stück Acker alles an, was Wurzeln hat. Das Thema Selbstversorgung und saisonale Ernährung liegt mir dabei besonders am Herzen. Lieblingsobst: Quitte, Kornelkirsche und Heidelbeere, Lieblingsgemüse: Erbsen, Tomaten und Knoblauch",
+          "source_notes": [
+            "is about roma tomatoes in general, not much specifically"
+          ]
+        }
+      ]
+    }
+  ]
+}

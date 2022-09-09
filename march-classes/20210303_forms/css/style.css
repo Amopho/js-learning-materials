@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+}
+
+body {
+  font-family: "Oswald", "Arial, Helvetica, sans-serif";
+}
+
+form {
+  margin: 25% auto;
+  border: 2px red dashed;
+  width: 50%;
+  height: 50%;
+
+  /* of the vw-vw is the site width */
+}
+
+input {
+  margin: 2vh auto;
+  display: block;
+  width: 30%;
+  border-radius: 2rem;
+  border: none;
+  background-color: lightgray;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  /* background-color: #ccc; */
+  transition: 0.4s;
+  border: 2px red dashed;
+}
+/* building my elemnt */
+.slider ::before {
+  /* ::after to make it slide from right to left- arabic languages */
+  position: absolute;
+  /* contet - to make it visible */
+}
+
+input:checked + .slider {
+  /* + means relation */
+  background-color: lightslateblue;
+}
+
+input:checked + .slider::before {
+  transform: translateX(3rem);
+}

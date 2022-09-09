@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header a {
+  text-decoration: none;
+}
+
+html {
+  margin: 4vw;
+}
+
+img {
+  width: 50vw;
+  height: 25vw;
+  padding: 6rem;
+}
+
+:current(p, span) {
+  background-color: yellow;
+}
+
+h1::cue {
+  color: yellow;
+  font-weight: bold;
+}
+
+header {
+  font-size: 6rem;
+}

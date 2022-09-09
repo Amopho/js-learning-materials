@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fancy Menu</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <nav class="subnav">
+        <button class="subnavbtn">About ▼</button>
+        <ul class="subnav-content">
+          <li class="list-item"><a href="#">Call 1</a></li>
+          <li class="list-item"><a href="#">Call 2</a></li>
+          <li class="list-item"><a href="#">Call 3</a></li>
+        </ul>
+      </nav>
+      <nav class="subnav">
+        <button class="subnavbtn">Help ▼</button>
+        <ul class="subnav-content">
+            <li class="list-item"><a href="#">Option 1</a></li>
+            <li class="list-item"><a href="#">Option 2</a></li>
+            <li class="list-item"><a href="#">Option 3</a></li>
+      </nav>
+      <nav class="subnav">
+        <button class="subnavbtn">More ▼</button>
+        <ul class="subnav-content">
+            <li class="list-item"><a href="#">Item 1</a></li>
+            <li class="list-item"><a href="#">Item 2</a></li>
+            <li class="list-item"><a href="#">Item 3</a></li>
+      </nav>
+    </nav>
+    <footer>
+        <ul class="footer-menu">
+            <li class="list-item"><a href="#">Item 1</a></li>
+            <li class="list-item"><a href="#">Item 2</a></li>
+            <li class="list-item"><a href="#">Item 3</a></li>
+    </footer>
+    <script>
+      let clicked =false;
+      const = yourClick = (item) => {
+          let string= "";
+          clicked = !clicked;
+          if (clicked) {
+              string = "block";
+              } else {
+                  string= "none";
+              }
+          document.querySelector(".subnav-content").style.cssText = `display: ${string}; transition:all 0.4s ease-in;`;
+      };
+      document.querySelector(".subnavbtn").
+      addEventListener("click, yourClick");
+    </script>
+  </body>
+</html>

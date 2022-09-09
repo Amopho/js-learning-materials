@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Examples of pseudo-elements and classes</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+      </nav>
+      <p>
+      A VTT file is a text file saved in the Web Video Text Tracks (WebVTT) format. It contains supplementary information about a web video, including subtitles, captions, descriptions, chapters, and metadata.</p>
+      <img src="./img/webvtt-example.png" alt="">
+        <p>
+          <h1>:current</h1> selector is called a "time-dimensional" pseudo-class that represents
+          the element, or an ancestor of the element, that is currently being
+          displayed.<br>
+          Examples:
+          <ul>
+              <li>selecting a time-dimensional relative element during a speech rendering</li>
+              <li>displaying video subtitles</li>
+          </ul>
+        </p>
+        <p>
+            <h1>::cue</h1> is a pseudo-element that matches WebVTT cues (subtitle text) within a selected element<br>
+            Examples:
+            <ul>
+                <li>may be used to style captions </li>
+            </ul>
+            The properties are applied to the entire set of cues as if they were a single unit. The only exception is that background and its longhand properties apply to each cue individually, to avoid creating boxes and obscuring unexpectedly large areas of the media.
+          </p>
+    </header>
+  </body>
+</html>
